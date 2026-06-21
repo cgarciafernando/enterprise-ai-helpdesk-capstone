@@ -1,0 +1,23 @@
+[
+    {
+        "ticket_id": "TKT-001",
+        "user": "j.gomez@company.com",
+        "subject": "Cannot access my email",
+        "description": "Hi, I tried to log into my Outlook account this morning and it says the password has expired. I need urgent access to send a report.",
+        "status": "open"
+    },
+    {
+        "ticket_id": "TKT-002",
+        "user": "m.rodriguez@company.com",
+        "subject": "500 Error in production database",
+        "description": "The main sales server (192.168.1.55) has been returning an intermittent 500 error for 10 minutes. Customers cannot process payments.",
+        "status": "open"
+    },
+    {
+        "ticket_id": "TKT-003",
+        "user": "l.perez@company.com",
+        "subject": "Photoshop installation",
+        "description": "I need to install Adobe Photoshop on my new computer for the design project next week.",
+        "status": "open"
+    }
+]

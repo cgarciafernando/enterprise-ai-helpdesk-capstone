@@ -1,0 +1,7 @@
+[theme]
+# Tema Corporativo "Enterprise Light"
+primaryColor = "#0052CC" # Azul corporativo (estilo Atlassian/Jira)
+backgroundColor = "#F4F5F7" # Fondo gris muy claro para no cansar la vista
+secondaryBackgroundColor = "#FFFFFF" # Blanco puro para la barra lateral y tarjetas
+textColor = "#172B4D" # Azul marino casi negro para el texto (máximo contraste)
+font = "sans serif"
