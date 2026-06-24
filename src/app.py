@@ -128,7 +128,7 @@ def run_initial_analysis(ticket_id, description):
         
         st.write("🔬 **Researcher Agent:** Querying Vector DB & executing Sandbox...")
         add_thought("Researcher Agent", "Initiating Semantic Query against Vector Knowledge Base.")
-        research_result = researcher.investigate(st.session_state.triage_data.get('summary', description))
+        research_result = researcher.investigate(st.session_state.triage_data.get('summary', description), raw_description=description)
         st.session_state.research_facts = research_result["text"]
         st.session_state.research_logs = research_result.get("logs", [])
         time.sleep(2) # Visual pause
