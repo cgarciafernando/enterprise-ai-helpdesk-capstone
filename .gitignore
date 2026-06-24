@@ -22,3 +22,7 @@ data/history.json
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Demo assets (local only)
+guion/
+imagenes/
